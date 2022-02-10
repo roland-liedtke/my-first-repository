@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Props czyli atrybuty w React.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css'>
+
+    <style>
+        .ui.menu .item img.logo {
+            margin-right: 1.5em;
+        }
+
+        .main.container {
+            margin-top: 5em;
+        }
+
+        ul.ui.list li:before {
+            display: none;
+            content: '';
+        }
+    </style>
+</head>
+
+<body>
+    <header className="ui fixed menu">
+        <nav className="ui container">
+            <a href="#" className="header item">
+                <img className="logo"
+                    src="/public/assets/wp-content/uploads/2017/08/cropped-typeofweb_logo-04-white-smaller-1-e1504359870362.png" />
+                Lista kontaktów
+            </a>
+            <div className="header item">
+                <button className="ui button">Dodaj</button>
+            </div>
+        </nav>
+    </header>
+    <main className="ui main text container">
+        <ul className="ui relaxed divided list selection">
+            <li className="item">
+                <img src="https://api.adorable.io/avatars/55/typeofweb1.png" className="ui mini rounded image" />
+                <div className="content">
+                    <h4 className="header">Lena</h4>
+                    <div className="description">JavaScript Developer</div>
+                </div>
+            </li>
+            <li className="item">
+                <img src="https://api.adorable.io/avatars/55/typeofweb2.png" className="ui mini rounded image" />
+                <div className="content">
+                    <h4 className="header">Brian</h4>
+                    <div className="description">Human Resources</div>
+                </div>
+            </li>
+            <li className="item">
+                <img src="https://api.adorable.io/avatars/55/typeofweb3.png" className="ui mini rounded image" />
+                <div className="content">
+                    <h4 className="header">Rick</h4>
+                    <div className="description">QA</div>
+                </div>
+            </li>
+        </ul>
+    </main>
+  <div id="app"></div>
+</body>
+
+</html>

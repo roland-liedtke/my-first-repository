@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pierwszy komponent w React.js</title>
+  <script src="https://unpkg.com/react/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="text/babel">
+
+    function MojKomponent() {
+      return (
+        <div>
+            <h1>Witaj Świecie!</h1>
+            <h2>To mój pierwszy komponent</h2>
+        </div>
+      );
+    };
+
+    function Komponent2() {
+      return (
+        <div>
+          <h1>Header nr 2</h1>
+          <h2>Opis drugiego komponentu</h2>
+        </div>
+      );
+    };
+
+    function KomponentDialog({title="brak tytułu", content="brak treści"}) {
+      return (
+        <div>
+          <dialog open>
+            <h1>{title}</h1>
+            <p>{content}</p>
+          </dialog>
+        </div>
+      );
+    }
+    ReactDOM.render(
+      <div>
+        <MojKomponent />
+        <Komponent2 />
+        <KomponentDialog title="MójTytuł" content="MojaTreść" />
+      </div>,
+      document.getElementById('app')
+    );
+  </script>
+</body>
+
+</html>
