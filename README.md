@@ -1,6 +1,9 @@
-#git - system kontroli wersji
+<h1>
+  #git - system kontroli wersji
+</h1>
 
-<br />1. Przejdź do katalogu projektu i wykonać polecenie:
+<ol>
+Przejdź do katalogu projektu i wykonać polecenie:
   <pre>$ git init</pre>
 <br />2A. Aby rozpocząć kontrolę wersji lokalnej dodajemy pliki, licencję i pierwszy commit (znajduje się w poczekalni):
   <pre>$ git add *</pre>
@@ -8,4 +11,4 @@
   <pre>$ git commit -m 'first commit'</pre>
 <br />2B. Jeśli chcesz pobrać istniejące repozytorium wpisz:
   <pre>$ git clone https://github.com/zdalneRepozytorium</pre>
-<br />  
+</ol>
