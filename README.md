@@ -17,6 +17,10 @@
     Jeśli chcesz pobrać istniejące repozytorium wpisz:
   <pre>$ git clone https://github.com/zdalneRepozytorium</pre>
   </li>
+  <li>
+    Podstawowym narzędziem do sprawdzania stanu plików jest:
+    <pre>$ git status</pre>
+  </li>
 </ol>
 
 <footer>
