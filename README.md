@@ -1,6 +1,6 @@
-<title>
+<head>
   git - system kontroli wersji
-</title>
+</head>
 
 <ol>
   <li>
