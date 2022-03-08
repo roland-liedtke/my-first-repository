@@ -1,11 +1,13 @@
-<header>
+<title>
   git - system kontroli wersji
-</header>
+</title>
 
 <ol>
   <li>
     Przejdź do katalogu projektu i wykonać polecenie:
     <pre>$ git init</pre>
+  </li>
+  <li>
     Aby rozpocząć kontrolę wersji lokalnej dodajemy pliki, licencję i pierwszy commit (znajduje się w poczekalni):
     <pre>$ git add *</pre>
     <pre>$ git add LICENSE</pre>
