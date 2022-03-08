@@ -1,7 +1,7 @@
 #git
 git - system kontroli wersji
 
-1. Przejdź do katalogu projektu i wykonać polecenie:
+1. Przejdź do katalogu projektu i wykonać polecenie:<br />
   $ git init
 2A. Aby rozpocząć kontrolę wersji lokalnej dodajemy pliki, licencję i pierwszy commit (znajduje się w poczekalni):
   $ git add *
