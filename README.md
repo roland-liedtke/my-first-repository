@@ -5,15 +5,14 @@
 <ol>
   <li>
     Przejdź do katalogu projektu i wykonać polecenie:
-      <pre>
-        $ git init
-      </pre>
+    <pre>$ git init</pre>
     Aby rozpocząć kontrolę wersji lokalnej dodajemy pliki, licencję i pierwszy commit (znajduje się w poczekalni):
-      <pre>
-        $ git add *
-     $ git add LICENSE</pre>
-  <pre>$ git commit -m 'first commit'</pre>
-<br />2B. Jeśli chcesz pobrać istniejące repozytorium wpisz:
+    <pre>$ git add *</pre>
+    <pre>$ git add LICENSE</pre>
+    <pre>$ git commit -m 'first commit'</pre>
+  </li>
+  <li>
+    Jeśli chcesz pobrać istniejące repozytorium wpisz:
   <pre>$ git clone https://github.com/zdalneRepozytorium</pre>
   </li>
 </ol>
