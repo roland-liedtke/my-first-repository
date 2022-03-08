@@ -21,6 +21,10 @@
     Podstawowym narzędziem do sprawdzania stanu plików jest:
     <pre>$ git status</pre>
   </li>
+  <li>
+    Następnie potwierdzamy zmiany stosując:
+    <pre>$ git commit -m "This commit will..."</pre>
+  </li>
 </ol>
 
 <footer>
