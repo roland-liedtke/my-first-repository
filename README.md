@@ -1,5 +1,8 @@
 <h1>
-  git - system kontroli wersji
+  <a href="https://git-scm.com/">
+    git
+  </a>
+   - system kontroli wersji
 </h1>
 
 <ol>
@@ -24,6 +27,14 @@
   <li>
     Następnie potwierdzamy zmiany stosując:
     <pre>$ git commit -m "This commit will..."</pre>
+  </li>
+  <li>
+    Aby wyświetlić zdalne repozytoria przejdź do katalogu lokalnego i wykonaj polecenie:
+    <pre>$ git remote -v</pre>
+  </li>
+  <li>
+    Aby dodać zdalne repozytorium należy wpisać:
+    <pre>$ git remote add [skrót] [url]:</pre>
   </li>
 </ol>
 
