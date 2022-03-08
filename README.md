@@ -1,14 +1,14 @@
-<head>
+<h1>
   git - system kontroli wersji
-</head>
+</h1>
 
 <ol>
   <li>
-    Przejdź do katalogu projektu i wykonać polecenie:
+    Przejdź do katalogu projektu i wykonaj w Terminalu polecenie:
     <pre>$ git init</pre>
   </li>
   <li>
-    Aby rozpocząć kontrolę wersji lokalnej dodajemy pliki, licencję i pierwszy commit (znajduje się w poczekalni):
+    Aby rozpocząć kontrolę wersji lokalnej dodajemy pliki, licencję i pierwszy commit (znajdzie się w poczekalni):
     <pre>$ git add *</pre>
     <pre>$ git add LICENSE</pre>
     <pre>$ git commit -m 'first commit'</pre>
@@ -20,7 +20,8 @@
 </ol>
 
 <footer>
+  <p>Źródło</p>
   <a href="https://git-scm.com/">
-    Źródło git
+    git
   </a>
 </footer>
